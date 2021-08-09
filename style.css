@@ -1,0 +1,38 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 560px;
+  width: 560px;
+  border: solid darkslategray 3px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: mediumseagreen;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: darkslateblue;
+}
+
+.power-pellet {
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.ghost-lair {
+  background-color: tomato;
+  /* border: 5px solid white; */
+  /* box-sizing: border-box; */
+}
+
+.pac-man {
+  background-color: orange;
+  border-radius: 10px;
+}
